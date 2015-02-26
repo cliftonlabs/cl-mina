@@ -5,6 +5,7 @@ task :setup do
   invoke :'nginx:setup'
   invoke :'unicorn:setup'
   invoke :'logrotate:setup'
+  invoke :'secrets:init'
   invoke :create_extra_paths
 end
 
