@@ -5,7 +5,7 @@ Mina is a gem that allows you to easily write rake tasks to automate deployment 
 # How to use
 
 1. Add to Gemfile: `gem "cl-mina"`
-2. Generate deploy configuration: `rails g cl-mina:install`
+2. Generate deploy configuration: `rails g cl_mina:install`
 3. ???
 4. Profit
 
