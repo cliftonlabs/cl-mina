@@ -28,8 +28,11 @@ To create the necessary files to run the cl-mina tasks, run `rails generate cl_m
 ## Customize configuration
 
 For most applications, you'll want to edit three files. All the documentation you need should be in the files themselves.
+
 1. `config/deploy.rb`
+
 2. `config/deploy/production.rb`
+
 3. `config/deploy/staging.rb`
 
 # Tasks
