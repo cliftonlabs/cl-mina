@@ -16,9 +16,13 @@ In addition to the documentation here, `config/deploy.rb`, `config/deploy/produc
 ## Run generator
 
 To create the necessary files to run the cl-mina tasks, run `rails generate cl-mina:install`. The install generator creates several files:
+
 1. `config/deploy.rb` contains application-specific configuration for all environments as well as the basic deploy script.
+
 2. `config/deploy/defaults.rb` contains defaults for configuration variables. Most of the time you won't need to modify this. This task is called by the specific environment tasks, and it will only set variables that have not been set for the environment.
+
 3. `config/deploy/staging.rb`, `config/deploy/production.rb` contain configuration variables that are likely to be different for staging and production environments.
+
 4. `config/environments/staging.rb` is a base environment configuration for a staging environment since Rails does not include one by default. Generally you will want to keep yours if you already have one.
 
 ## Customize configuration
