@@ -15,7 +15,7 @@ In addition to the documentation here, `config/deploy.rb`, `config/deploy/produc
 
 ## Run generator
 
-To create the necessary files to run the cl-mina tasks, run `rails generate cl-mina:install`. The install generator creates several files:
+To create the necessary files to run the cl-mina tasks, run `rails generate cl_mina:install`. The install generator creates several files:
 
 1. `config/deploy.rb` contains application-specific configuration for all environments as well as the basic deploy script.
 
